@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+.container {
+    width: 550px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header {
+    height: 208px;
+    color: #FFFF;
+    background-color: #0e0e0e;
+    width: 550px;
+    opacity: 1;
+    align-items: center;
+    background-image: url("image_36.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.header-text {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+h3 {
+    font-size: 35px;
+    width: 300px;
+}
+
+h4 {
+    font-size: 14px;
+    width: 90px;
+    margin-left: 80px;
+}
+
+div.main-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #0e0e0e;
+    margin-top: 208px;
+    width: 550px;
+    margin-left: 0%;
+    justify-content: center;
+    /* text-align: center; */
+    color: #2E2E2F;
+    height: 100%;
+
+}
+
+.main-section img {
+    width: 80px;
+    align-self: center;
+}
+
+.start-exploring {
+    margin-left: 220px;
+    width: 110px;
+}
+
+form {
+    position: relative;
+    top: 110px;
+    right: 470;
+
+}
+
+form,
+input,
+button,
+.container,
+header {
+    background-color: #2E2E2F;
+    border: none;
+    display: flex;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+input {
+    width: 300px;
+    margin: 0;
+    outline: none;
+    font-size: 1rem;
+}
+
+i {
+    width: fit-content;
+    margin: auto;
+    padding: 15px
+}
+
+button#search-button {
+    padding: 20px 40px;
+    color: #FFFF;
+    background-color: #4B4B4B;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+#search-button:hover {
+    background: #666666;
+}
+
+#search-button:active {
+    background: #a2a2a2;
+}
